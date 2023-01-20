@@ -1,0 +1,46 @@
+O Express tem uma "bibloteca" que faz todo o processo pra nós, então vou instalar na pasta "RestFul-LocalStorange" pelo prompt, usando o comando:
+	- npm install express-generator -g
+
+Pra ver se ta funcionando, no próprio prompt digito express -h
+
+Depois dou comando:
+   - express --ejs cliente-server
+
+o "cliente-server" é o nome que eu quiser.
+
+Depois dou os comandos: 
+
+change directory:
+     > cd cliente-server
+
+   install dependencies:
+     > npm install
+
+   run the app:
+     > npm start
+
+P verificar, rodo no chrome: localhost:3000, que é padrão, dps vamos mudar
+
+Agora vamos colocar o nosso HTML nessa rota 3000.
+
+Então vou na pasta client-server -> public. Apago oq tem lá, pois vamos criar do 0.
+
+Volto na pasta "GerenciaUsuarios" e copio TUDO e vou na pasta "client-server -> public e colo ali.
+
+Agora recorto o arq index.html, e colo na pasta views -> apago o index.ejs -> e renomeio o meu index.html p index.ejs
+
+Vou no prompt e paro a aplicação, e inicio novamente com: npm start
+
+Agora se volto lá no navegador, em localhost:3000 minha página html tá lá.
+
+Acaba que no console, mostra alguns erros devido aos id duplicados, mas resolvemos.
+
+Coloquei -uptade los label e input nos id, do form update
+---------------------------------------------------
+
+Agora preciso baixar o Restfy, entou vou no prompt, paro a aplicação e dou um:
+    npm install restify-clients --save
+
+Vou no site http://restify.com/docs/client-guide/
+
+e copio 
